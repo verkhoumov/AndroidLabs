@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="question_go">Моя специальность "Веб-технологии".</string>
+
+    <string name="yes_button">Да</string>
+    <string name="no_button">Нет</string>
+
+    <string name="correct_answer">Правильно!</string>
+    <string name="incorrect_answer">Неправильно!</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
