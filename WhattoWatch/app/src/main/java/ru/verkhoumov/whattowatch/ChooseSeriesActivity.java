@@ -25,7 +25,7 @@ public class ChooseSeriesActivity extends AppCompatActivity {
         String seriesPlan = String.valueOf(spinner.getSelectedItem());
         // Подставляем выбранный пункт списка в текстовое поле.
         genre.setText(seriesPlan);
-
+        // Выводим список сериалов.
         List<String> genreList = work.getGenre(seriesPlan);
         StringBuilder genreModified = new StringBuilder();
         for (String genres: genreList) {
