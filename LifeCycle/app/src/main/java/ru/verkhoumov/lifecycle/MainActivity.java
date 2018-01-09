@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG, "onDestroy()");
     }
 
+    // Нажатие на кнопки.
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.touchMe:
