@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Call Intent</string>
+    <string name="call">Позвонить</string>
+    <string name="map">Показать на карте</string>
+    <string name="web">Показать веб-страницу</string>
+    <string name="send">Отправить E-mail</string>
+</resources>
