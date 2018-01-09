@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Таймер</string>
+
+    <string name="start">Запустить</string>
+    <string name="stop">Остановить</string>
+    <string name="reset">Сбросить</string>
+</resources>
