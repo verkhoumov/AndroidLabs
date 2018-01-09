@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="choose_food">Выберите еду</string>
+    <string name="takeaway">С собой?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="food_vopper">Воппер</string>
+    <string name="food_potatos">Картошка фри</string>
+    <string name="food_drink">Пепси / Фанта / Спрайт</string>
+    <string name="food_souce">Соус</string>
+    <string name="food_desert">Десерт</string>
+    <string name="enter">ENTER</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+</resources>
