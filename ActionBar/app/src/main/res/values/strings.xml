@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ActionBar</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_beach">Beach</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="action_share">Share</string>
+    <string name="the_beach_2000">«Пляж» (англ. The Beach) — приключенческая драма 2000 года режиссёра Дэнни Бойла с Леонардо Ди Каприо в главной роли, снятая по одноимённому роману-бестселлеру Алекса Гарленда.</string>
+</resources>
