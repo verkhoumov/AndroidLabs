@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="ru.verkhoumov.fragment.ButtonFragment"
+        android:id="@+id/button_fragment"
+        tools:layout="@layout/button_fragment"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/image_fragment" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="ru.verkhoumov.fragment.CheckBoxFragment"
+        android:id="@+id/checkbox_fragment"
+        tools:layout="@layout/checkbox_fragment"
+        android:layout_below="@+id/button_fragment"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/image_fragment"
+        android:layout_marginStart="15dp" />
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="ru.verkhoumov.fragment.ImageFragment"
+        android:id="@+id/image_fragment"
+        tools:layout="@layout/image_fragment"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp" />
+</RelativeLayout>

@@ -3,50 +3,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:padding="@dimen/activity_vertical_margin"
-    tools:context="ru.verkhoumov.fragment.MainActivity">
+    android:orientation="vertical">
 
-    <Button
-        android:layout_width="wrap_content"
+    <fragment
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:name="ru.verkhoumov.fragment.ButtonFragment"
+        android:id="@+id/button_fragment"
+        tools:layout="@layout/button_fragment" />
 
-    <Button
-        android:layout_width="wrap_content"
+    <fragment
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button2"
-        android:layout_below="@+id/button"
-        android:layout_centerHorizontal="true" />
+        android:name="ru.verkhoumov.fragment.CheckBoxFragment"
+        android:id="@+id/checkbox_fragment"
+        tools:layout="@layout/checkbox_fragment" />
 
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New CheckBox"
-        android:id="@+id/checkBox"
-        android:layout_marginTop="28dp"
-        android:layout_below="@+id/button2"
-        android:layout_centerHorizontal="true" />
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New CheckBox"
-        android:id="@+id/checkBox2"
-        android:layout_marginTop="30dp"
-        android:layout_below="@+id/checkBox"
-        android:layout_centerHorizontal="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="300dp"
-        android:id="@+id/imageView"
-        android:layout_below="@+id/checkBox2"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/photo" />
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:name="ru.verkhoumov.fragment.ImageFragment"
+        android:id="@+id/image_fragment"
+        tools:layout="@layout/image_fragment" />
 </LinearLayout>
