@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AsyncTask</string>
+    <string name="blurBtn">BLUR</string>
+    <string name="invertBtn">INVERT</string>
+    <string name="resetBtn">RESET</string>
+</resources>
