@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_import">Socials</string>
+    <string name="fragment_gallery">Operation Systems</string>
+    <string name="fragment_slideshow">Slideshow</string>
+    <string name="fragment_tools">Tools</string>
+    <string name="fragment_share">Share</string>
+    <string name="fragment_send">Send</string>
+</resources>
