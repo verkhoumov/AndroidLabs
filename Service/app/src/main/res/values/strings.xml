@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Service</string>
+    <string name="action_settings">Settings</string>
+    <string name="input_label">Введите URL</string>
+    <string name="input_hint">http://vk.com</string>
+    <string name="input_button">Перейти на сайт</string>
+    <string name="action_view">View pages</string>
+    <string name="title_activity_view">ViewActivity</string>
+</resources>
