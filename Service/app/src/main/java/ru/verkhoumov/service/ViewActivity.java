@@ -1,5 +1,6 @@
 package ru.verkhoumov.service;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -64,11 +65,8 @@ public class ViewActivity extends AppCompatActivity {
                     // Элемент из выбранного пункта.
                     Object itemByPosition = adapterView.getItemAtPosition(position);
 
-                    // ID предмета в списке.
-                    Integer itemId = (int) (long) adapterView.getItemIdAtPosition(position);
-
                     // Загружаем файл с соответствующим именем.
-                    File file = new File(getFilesDir(), files[itemId]);
+                    File file = new File(getFilesDir(), files[(int) id]);
 
                     // Используем специальное окно для загрузки веб-страницы.
                     WebView webView = (WebView) findViewById(R.id.webview);
@@ -88,8 +86,6 @@ public class ViewActivity extends AppCompatActivity {
                                 buffer.append(line);
                             }
 
-                            // Такой метод портит кодировку да и вообще является не лучшим решением.
-                            // webView.loadData(buffer.toString(), "text/html", "utf-8");
                             webView.loadDataWithBaseURL(null, buffer.toString(), "text/html", "UTF-8", null);
                         } catch (FileNotFoundException e) {
                             e.printStackTrace();
@@ -106,8 +102,6 @@ public class ViewActivity extends AppCompatActivity {
                     // Required.
                 }
             });
-
         }
     }
-
 }
